@@ -1,0 +1,21 @@
+<xml>
+<project>
+
+<properties>
+		<abc>1</abc>
+		<version>2</version>
+</properties>
+
+<target name="abc">	
+
+</target>
+<target name="xyz" depends="abc">
+
+</target>
+<target name="main" depends="xyz">
+
+</target>
+
+
+</project>
+</xml>	
